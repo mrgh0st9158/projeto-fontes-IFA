@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  color: var(--cor-principal);
 }
 
 .logo {
@@ -100,33 +101,9 @@ a{
 .form-group {
   display: flex;
   flex-direction: column;
+
   margin-bottom: 20px;
-}
-
-.form-group label {
-  margin-bottom: 8px;
-  font-size: 14px;
-  color: var(--cor-secundaria);
-}
-
-.form-group input,
-.form-group select {
-  width: 100%;
-  height: 55px;
-  background: #1b1b1b;
-  border: 1px solid #2f2f2f;
-  border-radius: 14px;
-  color: white;
-  font-size: 15px;
-  padding: 0 15px;
-  outline: none;
-  transition: 0.3s;
-}
-
-.form-group input:focus,
-.form-group select:focus {
-  border-color: var(--cor-principal);
-  box-shadow: 0 0 10px #8dff4f20;
+  gap: 30px;
 }
 
 button {
